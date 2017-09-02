@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  	font-family: 'Montserrat', sans-serif;
+	font-weight: 300; /*light*/
+  	color: #384047;
+}
+
+p	{
+	line-height: 1.4em;
+}
+
+.transcript	{
+	padding: 10px 20px;
+}
+
+.highlight	{
+	color: #FEAC33;
+	font-weight: 400; /*regular*/
+}
+
+/*Control Bar*/
+.mejs__controls:not([style*='display: none']) {
+	background: rgba(254, 172, 51, .3);
+}
+
+/*MEDIA QUERIES*/
+
+
+@media screen and (min-width: 768px)	{
+	#main	{
+		margin: 30px auto;
+		max-width: 860px;
+		padding: 20px;
+		border-radius: 15px;
+		background: #f4f7f8;
+	}
+	
+	.videoWrapper, .transcript	{
+		max-width: 800px;
+		max-height: 480px;
+		margin: 0 auto;
+	}
+}
