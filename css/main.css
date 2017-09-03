@@ -23,12 +23,10 @@ p	{
 
 /*Control Bar*/
 .mejs__controls:not([style*='display: none']) {
-	background: rgba(254, 172, 51, .3);
+	background: rgba(254, 172, 51, .6);
 }
 
 /*MEDIA QUERIES*/
-
-
 @media screen and (min-width: 768px)	{
 	#main	{
 		margin: 30px auto;
